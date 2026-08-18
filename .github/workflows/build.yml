@@ -44,7 +44,7 @@ jobs:
           haxelib run lime build windows -release
 
       - name: Upload Artifact
-        uses: actions/artifacts@v4
+        uses: actions/upload-artifact@v4
         with:
           name: VS-Psychic-Windows
           path: export/release/windows/bin/*
