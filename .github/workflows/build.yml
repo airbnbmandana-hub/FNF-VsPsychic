@@ -29,7 +29,7 @@ jobs:
           haxelib install flixel-addons 2.11.0 --quiet
           haxelib install flixel-ui 2.5.0 --quiet
           haxelib install hscript 2.5.0 --quiet
-          haxelib install polymod 1.8.0 --quiet
+          haxelib install polymod 1.4.3 --quiet
           haxelib git discord_rpc https://github.com/Aidan63/linc_discord-rpc
 
       - name: Build Windows executable
